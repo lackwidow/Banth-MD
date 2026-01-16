@@ -11,14 +11,14 @@ const appname = process.env.APP_NAME || '';
 const herokuapi = process.env.HEROKU_API || '';
 
 // 🔹 BOT IDENTITY
-const botname = process.env.BOTNAME || 'KING-M';
+const botname = process.env.BOTNAME || 'Nile-MD';
 const author = process.env.STICKER_AUTHOR || 'ᴄᴏʀᴇ';
-const packname = process.env.STICKER_PACKNAME || 'ᴘᴇᴀᴄᴇ';
+const packname = process.env.STICKER_PACKNAME || 'divine';
 
 // 🔹 OWNER SETTINGS
 // Add your number below inside the quotes (No '+' sign)
 // If you have multiple owners, separate them with commas: '2547XXXX,2547YYYY'
-const dev = process.env.DEV || '254769995625';
+const dev = process.env.DEV || '27791290366';
 const owner = dev.split(",");
 const mycode = process.env.CODE || '254';
 const port = process.env.PORT || 8080;
